@@ -1,0 +1,5 @@
+This code is used to download photos or only profile images or only videos from an Instagram account entered by the user. The code uses a Python library called **"instaloader**", which is used to download data from Instagram profiles.
+
+The code is designed to download profile photos or all photos or videos according to user selection. If the user types "pp", only profile information will be downloaded, if the user types "f", all photos will be downloaded. The code also checks if the Instagram username entered by the user is correct, and if the username is incorrect, it will give a warning.
+
+The code saves the downloaded photos and videos to different folders "Instagram/Photos" and "Instagram/Videos". The code also gives a warning for private accounts. If an error occurs, the code will display an error message and terminate the program.
