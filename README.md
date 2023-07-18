@@ -2,8 +2,8 @@
 
 Bu Python kodu, Instagram profil fotoğrafı, gönderiler ve hikayeleri indirmek için Instaloader adlı bir kütüphane kullanır. Kullanıcıdan seçimler alarak Instagram hesaplarından içerikleri indirme işlemini gerçekleştirir.
 
-**Kodun işleyişi aşağıdaki adımlardan oluşur:
-**
+**Kodun işleyişi aşağıdaki adımlardan oluşur:**
+
 İlk olarak, is_profile_exists fonksiyonu, belirtilen kullanıcı adının Instagram'da mevcut olup olmadığını kontrol eder. Bu işlem, kullanıcı adının Instagram API'sini kullanarak doğrulama yaparak gerçekleştirilir.
 
 create_dirs fonksiyonu, indirilen içerikleri saklamak için gerekli dizinleri oluşturur. Bu dizinler "Instagram" adlı ana bir dizin altında, kullanıcı adına göre alt dizinler oluşturur. Bu alt dizinler, "Photos", "Videos" ve "Stories" olarak üçe ayrılır.
